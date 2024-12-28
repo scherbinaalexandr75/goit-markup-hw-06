@@ -46,12 +46,6 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-@media screen and (max-width: 320px) {
-  .header-box {
-    height: 56px;
-  }
-}
-
 .header-box .container {
   display: flex;
   gap: 100px;
@@ -568,25 +562,6 @@ img {
   margin: 0px auto;
 }
 
-@media screen and (max-width: 320px) {
-  .section-head-one {
-    display: flex;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-    max-width: 216px;
-    margin: 0px auto;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .container {
-    width: 320px;
-  }
-}
-
 .button {
   display: block;
   background-color: #4d5ae5;
@@ -643,16 +618,6 @@ img {
 .list-sec-two {
   display: flex;
   gap: 24px;
-}
-
-@media screen and (max-width: 320px) {
-  .list-sec-two {
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 72px;
-    width: 288px;
-  }
 }
 
 .list-item-two {
@@ -791,7 +756,7 @@ img {
   row-gap: 48px;
 }
 
- @media screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .list-sec-four {
     align-items: flex-start;
     justify-content: flex-start;
