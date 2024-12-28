@@ -19,7 +19,7 @@
   <body>
     <!-- Header -->
     <header class="header-box">
-      <div class="container">
+      <div class="container header-container">
         <nav class="menu-box">
           <a class="header-logo" href="./index.html"
             >Web<span class="logo-studio">Studio</span></a
@@ -50,6 +50,77 @@
             </li>
           </ul>
         </address>
+        <button class="menu-btn" type="button">
+          <svg class="menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#heroicons-solid_menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <div class="container mobile-container">
+          <button class="mob-menu-close-btn" type="button">
+            <svg class="mob-btn-close" width="8" height="8">
+              <use href="./images/icons.svg#Vectorclose"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-box">
+            <li class="mobile-menu-items">
+              <a class="link-item" href="./index.html">Studio</a>
+            </li>
+            <li class="mobile-menu-items">
+              <a class="link-item" href="./index.html">Portfolio</a>
+            </li>
+            <li class="mobile-menu-items">
+              <a class="link-item" href="./index.html">Contacts</a>
+            </li>
+          </nav>
+
+          <ul class="mob-list-addr">
+            <li class="mob-items-addr">
+              <a class="mob-address-item" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="mob-address-item" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+
+          <div class="mob-social-icon">
+            <ul class="mob-social-media-links">
+              <li class="mob-first-media">
+                <a class="mob-all-media" href="www.instagram.com">
+                  <svg class="mob-social-media-fill" width="24" height="24">
+                    <use href="./images/socialicons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-first-media">
+                <a class="mob-all-media" href="www.twitter.com">
+                  <svg class="mob-social-media-fill" width="24" height="24">
+                    <use href="./images/socialicons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-first-media">
+                <a class="mob-all-media" href="www.facebook.com">
+                  <svg class="mob-social-media-fill" width="24" height="24">
+                    <use href="./images/socialicons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-first-media">
+                <a class="mob-all-media" href="www.linkedin.com">
+                  <svg class="mob-social-media-fill" width="24" height="24">
+                    <use href="./images/socialicons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -57,11 +128,13 @@
       <!-- Section 1 -->
 
       <section class="section-one">
-        <div class="container">
+        <div class="container section-one-cont">
           <h1 class="section-head-one">
             Effective Solutions for Your Business
           </h1>
-          <button class="button" type="button">Order Service</button>
+          <div class="section-order-service">
+            <button class="button" type="button">Order Service</button>
+          </div>
         </div>
       </section>
 
@@ -306,7 +379,7 @@
 
       <!-- Our Portfolio -->
 
-      <section class="section-four">
+      <section class="section-four hidden">
         <div class="container">
           <h2 class="section-header">Our Portfolio</h2>
           <ul class="list-sec-four">
@@ -431,7 +504,7 @@
 
     <!-- Footer -->
 
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="container">
         <div class="footer-contain">
           <a class="footer-logo" href="./index.html"
@@ -497,9 +570,8 @@
         </div>
       </div>
     </footer>
-
-    <!-- class="backmodal is-open" -->
-    <div class="backmodal">
+    <!--  class="backmodal is-open"  -->
+    <div class="backmodal hidden">
       <div class="modal-window">
         <button class="modal-btn" type="button">
           <svg class="btn-close" width="8" height="8">
