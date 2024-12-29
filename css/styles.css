@@ -690,7 +690,6 @@ address,
   .list-sec-three {
     row-gap: 64px;
     column-gap: 24px;
-    /* width: calc((100% - 72px) / 4); */
   }
 }
 
@@ -975,9 +974,11 @@ address,
   .forma {
     display: flex;
     flex-direction: row;
+    gap: 24px;
   }
 
   .inp-email {
+    width: 264px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     opacity: 0.3;
   }
