@@ -247,11 +247,11 @@ address,
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-}
 
-.address-itm:hover,
-.address-itm:focus {
-  color: #404bbf;
+  .address-itm:hover,
+  .address-itm:focus {
+    color: #404bbf;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -269,6 +269,11 @@ address,
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+  }
+
+  .address-itm:hover,
+  .address-itm:focus {
+    color: #404bbf;
   }
 }
 
