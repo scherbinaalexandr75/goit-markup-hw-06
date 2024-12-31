@@ -168,15 +168,8 @@ address,
     display: inline-block;
   }
 
-  .list-item {
-    display: flex;
-    gap: 40px;
-  }
-
   .menu-item {
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #2e2f42;
   }
 
@@ -442,7 +435,6 @@ address,
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 160px;
   margin: 0px auto;
@@ -452,7 +444,6 @@ address,
   display: block;
   background-color: #4d5ae5;
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   text-align: center;
@@ -545,7 +536,6 @@ address,
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
-  letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
   padding-bottom: 8px;
@@ -553,9 +543,6 @@ address,
 
 .section-text-two {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -621,7 +608,6 @@ address,
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
-  letter-spacing: 0.02em;
   text-align: center;
   color: var(--navy-blue);
   padding-bottom: 72px;
@@ -836,9 +822,6 @@ address,
 
 .footer-text {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   width: 264px;
   margin-top: 0px;
   margin-bottom: 72px;
@@ -853,8 +836,6 @@ address,
 
 .social-media {
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #ffffff;
   padding-bottom: 16px;
 }
@@ -872,11 +853,7 @@ address,
 }
 
 .subscribe-text {
-  font-family: var(--font-family);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--white);
   padding-bottom: 16px;
 }
@@ -928,7 +905,6 @@ address,
 
 .btnsubmit {
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
@@ -1107,10 +1083,7 @@ address,
 
 .modal-paragraf {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   text-align: center;
-  letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
 }
@@ -1245,7 +1218,6 @@ address,
   display: block;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
@@ -1269,9 +1241,7 @@ address,
     min-height: 584px;
   }
   .container-name {
-    position: relative;
     width: 360px;
-    height: 40px;
   }
 
   .pp-link {
